@@ -16,6 +16,11 @@ Import { Component} from angular with "from '@angular/core'; then we use the com
 Video 5- Understanding the Role of AppModule and Component Declaration
 Angular uses components to build webpages and modules to package them together to use. Bundling functionalities of our apps and gives Angular the information on which features to have and use. It;s also an empty Typsecript class we can transform into someting else by using a decorator, the @NgModule decorator which is also imported from @angular/core.  We need to tell angular that the new server.component exists, we do that by registering it with the @NgModule under the declarations as ServerComponent, which we named. Now it knows it exists but that is not enough, typescript wouldnt know where to find it. so we have to use an Import at the top of the app.module.ts file  we are already in with: import { ServerComponent} from './server/server.component';
 
+Video 6- Using Custom Components
+We can create a new custom component manually or automatically. This is off memory because my system wasnt working right when i was doing it. Manually we riht click on the app folder then create a new folder with the name of the compnent. THen we create a ts file and html file. then link those in the module?  Ill have to dig back into this part we add the tag with the component name in the index.html. 
+
+Video 7- Components with the CLI & Nesting Components
+
 
 
 
